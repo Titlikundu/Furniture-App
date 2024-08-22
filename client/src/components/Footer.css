@@ -1,0 +1,72 @@
+.footer {
+  background-color: #14a0c4;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #170a0a;
+}
+
+.accept-cards {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.accept-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.accept-card-icons {
+  display: flex;
+  align-items: center;
+}
+
+.card-icons {
+  margin-right: 30px;
+}
+
+.social-icon-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icon-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.footer-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.footer-button img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.footer-button img:hover {
+  transform: scale(1.1);
+}

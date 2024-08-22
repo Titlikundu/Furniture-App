@@ -1,0 +1,27 @@
+/* FurnitureCategories.css */
+
+.category-items {
+  display: flex;
+  justify-content: space-evenly; /* Adjust this as needed */
+  flex-wrap: wrap;
+  margin: 0 -2px; /* Add margin to avoid crowding on the sides */
+}
+
+.category-item {
+  flex: 0 0 calc(5%); /* Show 4 items per row with some margin */
+  margin: 10px; /* Adjust as needed */
+  text-align: center;
+}
+
+.category-item img {
+  width: 70px;
+  height: 70px;
+}
+
+h2 {
+  color: #994b33;
+  font-size: 33px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; /* Center the heading */
+  margin-bottom: 10px; /* Add some space at the bottom */
+}

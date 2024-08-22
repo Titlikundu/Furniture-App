@@ -1,0 +1,137 @@
+/* Productlist.css */
+
+.product-slider {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  max-height: 600px; /* Adjust max-width as needed */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.7s ease-in-out;
+}
+
+.product-item {
+  flex: 0 0 auto;
+  width: 100%;
+  text-align: center;
+  display: none;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.product-item.active {
+  display: block;
+  opacity: 5;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #b54040; /* Optional border styling */
+  border-radius: 5px; /* Optional border radius */
+}
+
+.product-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.product-item p {
+  font-size: 1.1em;
+  color: #a92020;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.price-list {
+  margin-top: 10px;
+}
+
+.price {
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.price--highlight {
+  color: green; /* Adjust colors as needed */
+}
+
+.price--compare {
+  color: red; /* Adjust colors as needed */
+}
+
+.product-item__action-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.product-item__action-button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-item__action-button--list-view-only {
+  display: none; /* Adjust visibility as needed */
+}
+
+.product-item__action-button {
+  /* Basic button styles */
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  /* Customize colors and background */
+  color: #fff;
+  background-color: #ff8800; /* Change this color as needed */
+}
+
+.product-item__action-button:hover {
+  /* Adjust styles for hover */
+  background-color: #0056b3; /* Change this color as needed */
+}
+
+/* Additional styling for different button sizes */
+.button--small {
+  /* Define styles for small buttons */
+  font-size: 15px;
+  padding: 6px 12px;
+}
+
+/* Additional styling for primary buttons */
+.button--primary {
+  /* Define primary button styles */
+  background-color: #a72889; /* Change this color as needed */
+}
+
+.button--primary:hover {
+  /* Adjust styles for primary button hover */
+  background-color: #322188; /* Change this color as needed */
+}

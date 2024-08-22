@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .hero-section {
+    background: #f7f7f7; 
+    padding: 50px;
+    text-align: center;
+  }

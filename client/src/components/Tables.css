@@ -1,0 +1,95 @@
+/* Sofas.css */
+
+.product {
+    float: left;
+    width: 23%;
+    border-radius: 2%;
+    margin: 4%;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2% 2% 0 0;
+  }
+  
+  .images {
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 2% 2% 0 0;
+    transition: transform 0.5s ease;
+  }
+  
+  .images:hover {
+    transform: scale(1.1);
+  }
+  
+  .text-box {
+    width: 100%;
+    float: left;
+    border: 0px solid #ccc;
+    border-radius: 0 0 2% 2%;
+    padding: 1em;
+  }
+  
+  h2.item,
+  h3.price {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0.5em auto;
+    text-align: center;
+  }
+  
+  h3.price {
+    color: #555;
+  }
+  
+  .description,
+  label,
+  button,
+  input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    margin: 0.5em auto;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+  }
+  
+  .text-box input {
+    width: 70%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .text-box button {
+    width: 70%;
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .text-box button:hover {
+    background-color: #45a049;
+  }
+  

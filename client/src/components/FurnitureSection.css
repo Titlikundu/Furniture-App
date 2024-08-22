@@ -1,0 +1,40 @@
+/* FurnitureSection.css */
+
+/* Styles for the container */
+.container-fluid {
+    padding: 10px;
+  }
+  
+  /* Styles for the furniture list */
+  .furniture-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Styles for each furniture item */
+  .furniture-list a {
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 10px;
+    flex-basis: calc(33.33% - 20px);
+    border: 1px solid #7b1f1f;
+    border-radius: 8px;
+    
+  }
+  
+  .furniture-list a figure {
+    margin: 0;
+  }
+  
+  .furniture-list a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .furniture-list a:hover img {
+    transform: scale(1.05);
+  }
+  

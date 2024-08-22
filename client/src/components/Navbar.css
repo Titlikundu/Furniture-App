@@ -1,0 +1,80 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #14a0c4;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.wrap-text-icon {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Pushes the content to the right */
+}
+
+.user-credit-text {
+  margin-right: 10px;
+}
+
+.hd-icon-cta {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.hd-icon-cta a {
+  margin-left: 5px;
+}
+
+/* Cursor pointer style */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Styling links */
+.nav-links a {
+
+  text-decoration: none;
+  color: #333; /* Adjust text color as needed */
+  font-weight: bold;
+}
+
+/* Styling dropdown links */
+.dropdown-content a {
+  color: #333; /* Adjust text color as needed */
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #eee; /* Adjust background color on hover */
+}
